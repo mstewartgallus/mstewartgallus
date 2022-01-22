@@ -1,0 +1,180 @@
+% Formatting
+\documentclass[oneside]{scrartcl}
+
+%% Fixers
+\usepackage{fontspec}
+\usepackage{realscripts}
+\usepackage{xunicode}
+\usepackage{polyglossia}
+
+\usepackage[]{microtype}
+\usepackage[top=0.75in, bottom=0.755in, left=0.755in, right=0.75in]{geometry}
+\usepackage[english]{isodate}
+
+% Packages
+\usepackage{lastpage}
+\usepackage{scrlayer-scrpage}
+\usepackage{enumitem}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+
+%Load Last Fixers
+\usepackage{hyperref}
+
+% Settings
+
+\setdefaultlanguage{english}
+\setotherlanguage{latin}
+
+\setmainfont{Latin Modern Roman}[Ligatures=TeX,Fractions=On]
+\setsansfont{Latin Modern Sans}[Ligatures=TeX,Fractions=On]
+\setmonofont{Latin Modern Mono}[Ligatures=TeX,Fractions=On]
+
+\hypersetup{bookmarksopen=true,colorlinks=true,allcolors=blue}
+
+\graphicspath{ {./images/} }
+
+\linespread{1.00625}
+\showboxdepth=\maxdimen
+\showboxbreadth=\maxdimen
+
+\setlist{left=\parindent, itemsep=0.03em}
+
+\KOMAoption{parskip}{no}
+\setlength{\parindent}{0pt}
+
+\setcounter{secnumdepth}{0}
+
+\pagestyle{empty}
+
+\newcommand{\experience}[4]{
+  \subsection[#1]{#1 \hfill \small #4 \\
+  \textmd{\textit{#2} \hfill #3}}}
+
+
+\newcommand{\email}{mollystewartgallus@gmail.com}
+\newcommand{\github}{github.com/mstewartgallus}
+\newcommand{\gitlab}{gitlab.com/mstewartgallus}
+\newcommand{\linkedin}{www.linkedin.com/in/mstewartgallus}
+
+
+\begin{document}
+
+
+{
+\begin{wrapfigure}{R}{0.25\textwidth}
+  \raggedleft
+   \includegraphics[width=0.249\textwidth]{molly-happy}
+\end{wrapfigure}
+
+
+{\Large \textbf{Molly Stewart-Gallus}}\\*
+35--3550 ADANAC STREET\\*
+VANCOUVER BC\hspace{0.5em}V5K 4Y6
+\begin{description}[nosep]
+\item[Phone] (604) 500-2321
+\item[Email] \href{mailto://\email}{\nolinkurl{\email}}
+\item[GitHub] \href{https://\github}{\nolinkurl{\github}}
+\item[GitLab] \href{https://\gitlab}{\nolinkurl{\gitlab}}
+\item[LinkedIn] \href{https://\linkedin}{\nolinkurl{\linkedin}}
+\end{description}
+}
+
+\bigskip
+
+\underline{\textbf{\LARGE{}Software Developer}}
+
+\bigskip
+
+Webdev, sysadmin, hacker.
+
+Deep fullstack technical
+knowledge. Passionate about user experience, personal growth and
+emerging technology.
+
+\section{Professional Experience}
+\experience{Global Village English Marketing}
+{Fullstack webdev and sysadmin}{Vancouver, BC}{May, 2015--Dec, 2020}
+
+\begin{itemize}
+\item
+  Optimize website for small devices and slow international
+  clients. In a team, using HTML, CSS and JavaScript for a PHP backend
+  plan and redesign the gvenglish.com website for small iPhone device
+  sizes and a faster load speed for international students.
+  
+%% \item Containerize ieltsedmonton.com, ieltscalgary.com,
+%%   celtacalgary.com Linux Apache MariaDB PHP stack websites to
+%%   run on Digital Ocean on Ubuntu with Dokku
+  %% \item Develop LAMP stack websites on Docker Compose and later Podman
+  \item Speedup website, debug and correct MariaDB SQL server
+    performance problems and configuration issues
+  %% \item Clean unneeded old application history in the SQL database
+  %% \item Setup HTTPS with CertBot and LetsEncrypt
+  %% \item Rework a legacy XSLT templating system to use Webpack and Handlebars
+
+  \item
+  Track down potential security issues, scrape and filter server logs
+  and application CSV files with Python.
+
+\item Coordinate and plan issues and long-term goals using the
+  Mojohelpdesk ticketing system and the teamwork.com project tracking
+  web applications.
+\end{itemize}
+
+\experience{Ruckify}
+{Contract Web Development}{Vancouver, BC}{February, 2021--June, 2021}
+
+\begin{itemize}
+
+\item
+  Help upgrade website to a more maintainable, mobile friendly,
+  readable and accessible website style by updating fonts, colours,
+  buttons and widgets to the new style guide using Angular, web
+  components and PHP templates.
+
+  %% Now client can easier update components in-house.
+    
+\item Pad and rework footer HTML and CSS to be more mobile friendly
+\item Coordinate work with pull requests with gitlab, dev-docs and Slack
+\end{itemize}
+
+
+\section{About Me}
+
+\begin{multicols}{2}
+
+\subsection{Key Skills}
+
+\begin{itemize}[nosep]
+\item Requirements gathering and project planning.
+\item Linux scripting and administration.
+\item Web application design and development.
+\end{itemize}
+
+\subsection{Education}
+
+Graduated {\large \textbf{Langara College}} with \textit{Associate of
+Science Degree in Computer Science} - 2017
+
+\subsection{Volunteer Work}
+
+\textbf{Drive Youth Employment Services} - \textit{Contract Website Development} - May, 2014--July, 2014
+
+\textbf{Free Geek Vancouver} - \textit{Volunteer Disassambler} - July, 2009--July, 2010
+
+\subsection{Technologies and Languages}
+
+\begin{itemize}[nosep]
+\item PHP
+\item Python
+\item SQL
+\item CSS
+\end{itemize}
+
+
+\end{multicols}
+
+\end{document}
