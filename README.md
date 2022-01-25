@@ -18,6 +18,20 @@ sort of graded [Call By Push
 Value](https://en.wikipedia.org/wiki/Call-by-push-value) which ought
 to be useful for a compiler IR to simplify optimization.
 
+I've also been playing with technologies like [PLT
+Redex](https://redex.racket-lang.org/) and
+[Makam](http://astampoulis.github.io/makam/) (a dialect of Lambda
+Prolog) for rapid prototyping of programming language interpreters.
+
+You can see a tiny demo language in PLT Redex [here](https://github.com/mstewartgallus/playground/blob/master/coexp.rkt)
+
+A little language in Makam [here](https://github.com/mstewartgallus/coc-makam)
+
+I also played a [little bit](https://github.com/mstewartgallus/peacod)
+with GraalVM but I found it too complicated for initial
+experimentation.  Also GraalVM had troubles with tail recursion at the
+time.
+
 ### Contact Me
 
 Please reach me at mollystewartgallus@gmail.com .
