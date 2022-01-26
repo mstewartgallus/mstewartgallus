@@ -27,7 +27,10 @@ Prolog) for rapid prototyping of programming language interpreters.
 
 You can see a tiny demo language in PLT Redex [here](https://github.com/mstewartgallus/playground/blob/master/coexp.rkt)
 
-A little language in Makam [here](https://github.com/mstewartgallus/coc-makam)
+A little language in Makam
+[here](https://github.com/mstewartgallus/coc-makam) . Makam works
+great for simply typed languages but full dependent types are **way
+too** complicated in any implementation.
 
 I also played a [little bit](https://github.com/mstewartgallus/peacod)
 with GraalVM but I found it too complicated for initial
@@ -41,15 +44,17 @@ program.
 
 I got heavily into lock-free programming for a while and
 [played](https://github.com/mstewartgallus/stacklock) with making a
-more efficient unfair lock implementation based on the MCS Queue.
+more efficient unfair lock implementation based on the MCS Queue that
+uses a stack instead. I also tried formalizing a little bit of it in
+TLA+.
 
 In the past I got into hard real-time and safety critical stuff for a
 while. I
 [experimented](https://github.com/mstewartgallus/linted/tree/master)
-with breaking a program into seperate processes some of which are
-verifiable in a safe dialect of Ada. The lock free queueing is
-probably broken.
-
+with breaking a program into separate processes some of which are
+verifiable in a safe dialect of Ada. The lock-free queue is probably
+broken.  I didn't really get how Ada SPARK was meant to handle
+concurrency.
 
 ### Contact Me
 
@@ -63,8 +68,15 @@ You may want to look into:
 - https://github.com/mstewartgallus
 - https://gitlab.com/mstewartgallus
 
+### Addendum
+
+I am a trans woman. I used to go by the name "Steven" and use the
+email stevenselectronicmail@gmail.com . These details may pop up in
+older work.  I do not use the name or email anymore.
+
 <!--
-**mstewartgallus/mstewartgallus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**mstewartgallus/mstewartgallus** is a ✨ _special_ ✨ repository
+because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
