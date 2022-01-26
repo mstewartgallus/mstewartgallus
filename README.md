@@ -18,6 +18,8 @@ sort of graded [Call By Push
 Value](https://en.wikipedia.org/wiki/Call-by-push-value) which ought
 to be useful for a compiler IR to simplify optimization.
 
+### In the past
+
 I've also been playing with technologies like [PLT
 Redex](https://redex.racket-lang.org/) and
 [Makam](http://astampoulis.github.io/makam/) (a dialect of Lambda
@@ -30,7 +32,24 @@ A little language in Makam [here](https://github.com/mstewartgallus/coc-makam)
 I also played a [little bit](https://github.com/mstewartgallus/peacod)
 with GraalVM but I found it too complicated for initial
 experimentation.  Also GraalVM had troubles with tail recursion at the
-time.
+time which made it hard to implement functional languages.
+
+I got heavily into low-level details of the JVM for a while.  I
+learned to [use](https://github.com/mstewartgallus/heaps) ByteBuddy
+and invokedynamic to insert dynamically optimizable spots into a Java
+program.
+
+I got heavily into lock-free programming for a while and
+[played](https://github.com/mstewartgallus/stacklock) with making a
+more efficient unfair lock implementation based on the MCS Queue.
+
+In the past I got into hard real-time and safety critical stuff for a
+while. I
+[experimented](https://github.com/mstewartgallus/linted/tree/master)
+with breaking a program into seperate processes some of which are
+verifiable in a safe dialect of Ada. The lock free queueing is
+probably broken.
+
 
 ### Contact Me
 
