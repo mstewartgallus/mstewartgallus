@@ -68,9 +68,10 @@ for example went through hoops I didn't want to bother with to
 optimize tail calls.
 
 I got heavily into low-level details of the JVM for a while.  I
-learned to [use](https://github.com/mstewartgallus/heaps) ByteBuddy
-and invokedynamic to insert dynamically optimizable spots into a Java
-program.
+learned to [use](https://github.com/mstewartgallus/heaps)
+[ByteBuddy](https://bytebuddy.net/) and
+[invokedynamic](https://blogs.oracle.com/javamagazine/post/understanding-java-method-invocation-with-invokedynamic)
+to insert dynamically optimizable spots into a Java program.
 
 I got heavily into lock-free programming for a while and
 [played](https://github.com/mstewartgallus/stacklock) with making a
