@@ -20,6 +20,14 @@ to be useful for a compiler IR to simplify optimization.
 
 ### In the past
 
+I got heavily into category theory for a while. I am no longer
+convinced it is so simple to compile computer programs to a
+categorical intermediate representation.  But a start of an effort
+towards this might be [this
+project](https://github.com/mstewartgallus/prologish) which compiles a
+continuations based language to co-closed categories in a manner dual
+to compiling the STLC to closed categories.
+
 I've also been playing with technologies like [PLT
 Redex](https://redex.racket-lang.org/) and
 [Makam](http://astampoulis.github.io/makam/) (a dialect of Lambda
