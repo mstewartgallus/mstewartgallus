@@ -59,6 +59,12 @@ A little language in Makam
 great for simply typed languages but full dependent types are **way
 too** complicated in any implementation.
 
+I got interested in compilers and interpreters for a while. I played a
+bit with effect systems like Call-By-Push-Value (basically ANF) and
+simple functional optimizations:
+https://github.com/mstewartgallus/hs-callbypushvalue
+https://github.com/mstewartgallus/compiler-2
+
 I also played a [little bit](https://github.com/mstewartgallus/peacod)
 with [GraalVM](https://www.graalvm.org/) but I found it too
 complicated for initial experimentation.  Also GraalVM had troubles
