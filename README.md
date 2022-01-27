@@ -60,9 +60,12 @@ great for simply typed languages but full dependent types are **way
 too** complicated in any implementation.
 
 I also played a [little bit](https://github.com/mstewartgallus/peacod)
-with GraalVM but I found it too complicated for initial
-experimentation.  Also GraalVM had troubles with tail recursion at the
-time which made it hard to implement functional languages.
+with [GraalVM](https://www.graalvm.org/) but I found it too
+complicated for initial experimentation.  Also GraalVM had troubles
+with tail recursion at the time which made it hard to implement
+functional languages.  [Cadenza](https://github.com/ekmett/cadenza)
+for example went through hoops I didn't want to bother with to
+optimize tail calls.
 
 I got heavily into low-level details of the JVM for a while.  I
 learned to [use](https://github.com/mstewartgallus/heaps) ByteBuddy
@@ -73,15 +76,16 @@ I got heavily into lock-free programming for a while and
 [played](https://github.com/mstewartgallus/stacklock) with making a
 more efficient unfair lock implementation based on MCS Locks that uses
 a stack instead of a queue. I also tried formalizing a little bit of
-it in TLA+.
+it in [TLA+](https://lamport.azurewebsites.net/tla/high-level-view.html).
 
 In the past I got into hard real-time and safety critical stuff for a
 while. I
 [experimented](https://github.com/mstewartgallus/linted/tree/master)
 with breaking a program into separate processes some of which are
-verifiable in a safe dialect of Ada. The lock-free queue is probably
-broken.  I didn't really get how Ada SPARK was meant to handle
-concurrency.
+verifiable in a safe dialect of [Ada
+SPARK](https://www.adacore.com/about-spark). The lock-free queue is
+probably broken.  I didn't really get how Ada SPARK was meant to
+handle concurrency.
 
 ### Contact Me
 
