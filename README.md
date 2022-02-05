@@ -11,7 +11,11 @@ theory](https://github.com/mstewartgallus/category-fun) in
 [Coq](https://coq.inria.fr/).
 
 I'm playing around with type systems and formal methods right now and
-I'm hopeful category theory can help with this.
+I'm hopeful category theory can help with this.  I've been trying to
+figure out how to make internal languages for many types of
+categories. [I've
+started](https://github.com/mstewartgallus/doublecatrel) on some ideas
+to work within double categories like Rel.
 
 I have a hunch you can generalize graded monads and adjoint functors
 for a sort of graded [Call By Push
