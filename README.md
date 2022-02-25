@@ -4,6 +4,19 @@ My name is Molly Stewart-Gallus.
 
 I guess right now I'm just working on my portfolio.
 
+I have personal interests in formal methods but mostly have
+professional experience in web development. I'm most looking for
+stability and flexible work hours in job positions.
+
+### I'm looking for
+
+I have a personal interest in formal methods but mostly have
+professional experience in web development, system administration,
+advertising and analytics.  I would strongly value flexible work hours
+or part time positions and would also prioritise stability and
+work-life balance.  I don't want to go home on Friday and get a call
+on the weekend that something is broken.
+
 ### I'm currently learning
 
 Lately I've been working on [formalizing a small amount of category
