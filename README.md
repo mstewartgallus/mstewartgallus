@@ -125,8 +125,7 @@ You may want to look into:
 
 ### Addendum
 
-I am a trans woman. I used to go by the name "Steven" and use the
-email stevenselectronicmail@gmail.com . These details may pop up in
+I am a trans woman. I used to use a different name and email. These details may pop up in
 older work.  I do not use the name or email anymore.
 
 <!--
