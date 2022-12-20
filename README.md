@@ -19,7 +19,32 @@ on the weekend that something is broken.
 
 ### I'm currently learning
 
-Lately I've been working on [formalizing a small amount of category
+I've been mostly working on my weird poetry blog lately and relearning
+modern web development in 2022.  So far I've found using
+[Jekyll](https://jekyllrb.com/) to be very copacetic.  The biggest
+hiccup was figuring out how to implement a search page which I solved
+by integrating [pagefind](pagefind.app]) into my blog.
+
+It has been really fun learning about fluid web typography and other
+advanced techniques.  Fonts are definitely a headache online though.
+
+I'm a bit of a perfectionist so my special interest for 2022 has been
+accessibility.  Learning how to use a screenreader has been eye
+opening.  I found it easiest to get started with Android TalkBack.
+Accessibility is very fiddly but makes for satisfying design problems
+to tetris in the most amount of information with the least amount of
+noise.
+
+Most of my blog problems were fairly typical except for figuring out
+how to markup poetry appropriately.  A fair bit of hacks were required
+to obtain the appropriate sort of hanging indent presentation and to
+obtain the appropriate pauses between sentences.  If you're not
+careful with the markup the lines of the poem can run together or
+worse the words can.  In the other direction, marking up a poem as an
+ordered list might lead to a lot of noise.  Hearing "line m of n"
+every single line of a poem might be a little messy.
+
+In the past I was working on [formalizing a small amount of category
 theory](https://github.com/mstewartgallus/category-fun) in
 [Coq](https://coq.inria.fr/).
 
