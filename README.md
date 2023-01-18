@@ -19,8 +19,37 @@ on the weekend that something is broken.
 
 ### I'm currently learning
 
-I've been mostly working on my weird poetry blog lately and relearning
-modern web development in 2022.  So far I've found using
+In 2023 I have been exploring porting my poetry blog over to
+[Gatsby](gatsbyjs.com).  Mostly things have been very smooth but I
+have found the biggest problems to be Gatsby's lack of documentation.
+I can implement missing features I know about.  I can't work around
+bugs that have not been documented.  I'm not a fan of GraphQL per se
+but I can see the advantages of a unified abstraction over different
+data sources.
+
+Also the tutorial documentation for Gatsby gives oversimplified and
+fragile designs for cases like blogging.  The suggested designs don't
+work for cases like multiple source formats.  Just as a Markdown
+plugin might process file nodes into Markdown nodes you want to
+implement your own code processing Markdown nodes into a custom type
+of nodes.  This isn't really a flaw with Gatsby that the tutorials
+give the simplest but most fragile examples.
+
+I have found React components to be less problematic than I initially
+expected.  I expected lots of weird problems due to the abstraction
+over top the native architecture of the web.  I haven't really found
+such problems to be the case so far although my website is relatively
+simple.
+
+[MDX](https://mdxjs.com/), a Markdown processor lets you insert React
+components into Markdown, is interesting but has some major caveats
+that make it a little awkward sometimess.  In particular, while MDX is
+probably well suited to writing ad-hoc websites and landing pages MDX
+is a little less useful for highly structured content like blog posts.
+
+In 2022 I was have been mostly working on [my bizarro poetry
+blog](https://github.com/mstewartgallus/mstewartgallus.github.io) and
+relearning modern web development.  I have found using
 [Jekyll](https://jekyllrb.com/) to be very copacetic.  The biggest
 hiccup was figuring out how to implement a search page which I solved
 by integrating [pagefind](pagefind.app]) into my blog.
