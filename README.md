@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Molly Stewart-Gallus.
+I am Ms. Molly Stewart-Gallus.
 
 I guess right now I'm just working on my portfolio.
 
